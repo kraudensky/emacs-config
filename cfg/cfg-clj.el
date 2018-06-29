@@ -89,7 +89,7 @@
    ;; "s-p s-s"  'cider-eval-print-last-sexp
    "s-d"      'cider-debug-defun-at-point
    "s-i s-r"  'cider-inspect-last-result
-   "s-SPC"    'cider-nrepl-reset
+   "s-8"    'cider-nrepl-reset
    "C-n" 'lispy-outline-next
    "C-p" 'lispy-outline-prev
    
