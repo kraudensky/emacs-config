@@ -1,23 +1,23 @@
-(use-package rainbow-delimiters
-  :config
-  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
+;; (use-package rainbow-delimiters
+;;   :config
+;;   (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
 
-(use-package flycheck
-  :defer 5
-  :hook '(clojure-mode . flycheck-mode)
-  :config
-  ;; (global-flycheck-mode)
-  (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc coq))
-  :general (:states '(normal visual)
-            :keymaps 'prog-mode-map
-            "s-n" 'flycheck-next-error
-            "s-p" 'flycheck-previous-error
-            ))
+;; (use-package flycheck
+;;   :defer 5
+;;   :hook '(clojure-mode . flycheck-mode)
+;;   :config
+;;   ;; (global-flycheck-mode)
+;;   (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc coq))
+;;   :general (:states '(normal visual)
+;;             :keymaps 'prog-mode-map
+;;             "s-n" 'flycheck-next-error
+;;             "s-p" 'flycheck-previous-error
+;;             ))
 
-(use-package flycheck-joker
-  :demand t
-  ;; :defer 5
-  )
+;; (use-package flycheck-joker
+;;   :demand t
+;;   ;; :defer 5
+;;   )
 
 (use-package clojure-mode
   :mode "\\.edn$"
@@ -194,11 +194,11 @@
 ;;     ;; (require 'clj-refactor)
 ;;     ;; (cljr-add-keybindings-with-prefix "s-p")
 
-(use-package clojure-snippets)
-(use-package seq-25
-  :straight 
-  (seq-25 :type git :host github :repo "NicolasPetton/seq.el"))
-(use-package clj-refactor)
+;; (use-package clojure-snippets)
+;; (use-package seq-25
+;;   :straight 
+;;   (seq-25 :type git :host github :repo "NicolasPetton/seq.el"))
+;; (use-package clj-refactor)
 
 ;; breaks/unbreaks company-quickhelp-mode for cider, filed https://github.com/expez/company-quickhelp/issues/79
 
