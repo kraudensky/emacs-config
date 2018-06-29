@@ -48,8 +48,8 @@
 
   :custom
   (cider-known-endpoints
-   '(("ropes-blake" "7887")
-     ("ropes-blake" "7888")))
+   '(("ropes-kyle" "7887")
+     ("ropes-kyle" "7888")))
 
   ;; this isn't supported it 0.16.0
   ;; (cider-jdk-src-paths '("/usr/lib/jvm/openjdk-8/src.zip"
