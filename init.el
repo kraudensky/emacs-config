@@ -25,7 +25,7 @@
 ;; (load "cfg-sensitive.el")
 ;; (load "cfg-read-from-pipe.el")
 (load "cfg-prelude.el")
-;; (load "cfg-documentation.el")
+(load "cfg-documentation.el")
 ;; (load "cfg-multiple-cursors.el")
 (load "cfg-elisp.el")
 (load "cfg-basics.el")
